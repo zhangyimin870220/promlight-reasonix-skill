@@ -1,0 +1,14 @@
+# Reasonix
+.reasonix/desktop-*.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Config / secrets
+config/mcporter.json
+.env
+
+# OS
+Thumbs.db
+.DS_Store

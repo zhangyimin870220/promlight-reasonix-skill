@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart":      [{"command": "python F:\\PromLight\\agent_hook.py --agent reasonix SessionStart"}],
+    "UserPromptSubmit":  [{"command": "python F:\\PromLight\\agent_hook.py --agent reasonix UserPromptSubmit"}],
+    "PreToolUse":        [{"command": "python F:\\PromLight\\agent_hook.py --agent reasonix PreToolUse"}],
+    "PostToolUse":       [{"command": "python F:\\PromLight\\agent_hook.py --agent reasonix PostToolUse"}],
+    "PermissionRequest": [{"command": "python F:\\PromLight\\agent_hook.py --agent reasonix PermissionRequest"}],
+    "Stop":              [{"command": "python F:\\PromLight\\agent_hook.py --agent reasonix Stop"}],
+    "SessionEnd":        [{"command": "python F:\\PromLight\\agent_hook.py --agent reasonix SessionEnd"}],
+    "PostLLMCall":       [{"command": "python F:\\PromLight\\agent_hook.py --agent reasonix PostLLMCall"}],
+    "SubagentStop":      [{"command": "python F:\\PromLight\\agent_hook.py --agent reasonix SubagentStop"}],
+    "Notification":      [{"command": "python F:\\PromLight\\agent_hook.py --agent reasonix Notification"}],
+    "PreCompact":        [{"command": "python F:\\PromLight\\agent_hook.py --agent reasonix PreCompact"}]
+  }
+}
