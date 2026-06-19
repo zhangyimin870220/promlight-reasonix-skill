@@ -1,0 +1,59 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "command": "C:/Users/admin/AppData/Local/Programs/Python/Python312/python.exe F:/PromLight/agent_hook.py --agent reasonix SessionStart"
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "command": "C:/Users/admin/AppData/Local/Programs/Python/Python312/python.exe F:/PromLight/agent_hook.py --agent reasonix UserPromptSubmit"
+      }
+    ],
+    "PreToolUse": [
+      {
+        "command": "C:/Users/admin/AppData/Local/Programs/Python/Python312/python.exe F:/PromLight/agent_hook.py --agent reasonix PreToolUse"
+      }
+    ],
+    "PostToolUse": [
+      {
+        "command": "C:/Users/admin/AppData/Local/Programs/Python/Python312/python.exe F:/PromLight/agent_hook.py --agent reasonix PostToolUse"
+      }
+    ],
+    "PermissionRequest": [
+      {
+        "command": "C:/Users/admin/AppData/Local/Programs/Python/Python312/python.exe F:/PromLight/agent_hook.py --agent reasonix PermissionRequest"
+      }
+    ],
+    "Stop": [
+      {
+        "command": "C:/Users/admin/AppData/Local/Programs/Python/Python312/python.exe F:/PromLight/agent_hook.py --agent reasonix Stop"
+      }
+    ],
+    "SessionEnd": [
+      {
+        "command": "C:/Users/admin/AppData/Local/Programs/Python/Python312/python.exe F:/PromLight/agent_hook.py --agent reasonix SessionEnd"
+      }
+    ],
+    "PostLLMCall": [
+      {
+        "command": "C:/Users/admin/AppData/Local/Programs/Python/Python312/python.exe F:/PromLight/agent_hook.py --agent reasonix PostLLMCall"
+      }
+    ],
+    "SubagentStop": [
+      {
+        "command": "C:/Users/admin/AppData/Local/Programs/Python/Python312/python.exe F:/PromLight/agent_hook.py --agent reasonix SubagentStop"
+      }
+    ],
+    "Notification": [
+      {
+        "command": "C:/Users/admin/AppData/Local/Programs/Python/Python312/python.exe F:/PromLight/agent_hook.py --agent reasonix Notification"
+      }
+    ],
+    "PreCompact": [
+      {
+        "command": "C:/Users/admin/AppData/Local/Programs/Python/Python312/python.exe F:/PromLight/agent_hook.py --agent reasonix PreCompact"
+      }
+    ]
+  }
+}
